@@ -57,6 +57,16 @@ aside{
 
 }
 
+a:link, a:visited {
+    color:dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(22, 110, 197);
+    text-decoration: underline;
+}
+
 img{
     width: 100%;
 }
@@ -77,4 +87,22 @@ img.circle {
 color: red;
 font-weight: bold;
 text-decoration: none;
+}
+
+
+/***** Components *****/
+.button:link, .button:visited {
+color:white;
+background-color: dodgerblue;
+text-align: center;
+text-decoration: none;
+padding: 1rem 1.75rem;
+border-radius: .5rem;
+box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+display: inline-block;
+margin: 0 .25rem .25rem 0;
+transition: background-color 0.5s ease;
+}
+.button:hover{
+    background-color: rgb(22, 110, 197);
 }
