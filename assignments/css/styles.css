@@ -75,12 +75,12 @@ img.circle {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 999px;
-    border: 6px solid peachpuff;
+    border: 6px solid #525252;
 }
 
 /***** Navigation *****/
 #nav-menu li a{
-    color: blue;
+    color: white;
     }
 
 .menu-items li a {
@@ -89,6 +89,37 @@ font-weight: bold;
 text-decoration: none;
 }
 
+/***** Navigation Using Flexbox *****/
+nav{
+    background-color: #525252;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+nav li {
+    margin: 0 0.5rem;
+}
+nav a:link, nav a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+    transition: ease-in-out 250ms;
+}
+nav a:hover {
+    color: white;
+    background-color: dodgerblue;
+}
 
 /***** Components *****/
 .button:link, .button:visited {
