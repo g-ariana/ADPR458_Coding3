@@ -1,0 +1,185 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdd835;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  header, section{
+    padding: 2rem;
+    max-width: 1470px;
+    width: 100%;
+  }
+
+header {
+  background-color: #fdd835;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 1470px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    color: #231f20;
+    text-decoration: none;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    -webkit-text-stroke: 1px;
+    line-height: 42px;
+    border-right: 1px solid #231f20;
+    transition: all .15s;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #231f20;
+    max-width: 1440px;
+
+  background-color: #fdd835;
+  color:#000;
+  font-family: 'helvetica', sans-serif;
+  text-decoration: none;
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 1440px;
+  display: flex;
+      justify-content: space-evenly;
+}
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .highlight {
+    font-style: italic;
+  }
+
+  .about-card{
+    font-size: 17px;
+    -webkit-text-stroke: 1.3px;
+    padding: 50px 0;
+    letter-spacing: .75px;
+    background: #c8cbcd;
+    padding: 15px 15px 50px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .image-section {
+    text-align: center;
+  }
+
+row{
+  padding: 10px;
+  width: 25%;
+}
+  .columns {
+    float: right;
+align-items: center;
+  }
+  
+  .left {
+    width: 25%;
+    padding: 10px;
+    margin: 25px;
+  }
+  
+  .right {
+    width: 60%;
+  }
+
+  foot{
+    max-width: 250px;
+  }
+
+  .image-section left {
+    max-width: 25%;
+    height: auto;
+    grid-template-columns: 20% 65%;
+    display: grid;
+    width: 250px
+  }
+
+  .image-section right {
+    max-width: 60%;
+    height: auto;
+    grid-template-columns: 20% 60%;
+    display: grid;
+  }
+  .quote {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1.5rem 1.5rem;
+  }
+  .random-cut, .extra-thick, .earth-friendly, .giving-back {
+    background-color: #fdd835;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  .two-column {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .column {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  .who-we-are {
+    text-align: center;
+    background-color: #c8cacb;
+  }
+  .who-we-are img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  footer {
+    background-color: #fdd835;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+  }
+  footer a {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+
+
+@media (max-width: 40em) {
+  /*mobile functionality*/
+      #nav-menu ul.active {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    @media (min-width: 40em) {
+      #nav-menu ul {
+        display: flex;
+        flex-direction: row;
+      }
+    }
