@@ -48,33 +48,33 @@
     padding: 2rem;
   }
   
-  .hero-text, .hero-image {
+  .intro-text, .intro-image {
     flex: 1 1 100%;
     text-align: center;
     margin-bottom: 2rem;
   }
   
-  .hero-text {
+  .intro-text {
     color: white;
   }
   
-  .hero-text h1 {
+  .intro-text h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
   
-  .hero-text p {
+  .intro-text p {
     font-size: 1.5rem;
   }
   
-  .hero-bar {
+  .intro-bar {
     width: 50px;
     height: 10px;
     background: #F8E9E0;
     margin: 1rem auto 0;
   }
   
-  .hero-image img {
+  .intro-image img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
